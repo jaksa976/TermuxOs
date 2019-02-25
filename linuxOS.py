@@ -9,7 +9,7 @@ from core.oscore import *
 def main():
         banner()
         print ("[01] OS Menu Installation")
-		print ("[02] Desktop Environment")
+	print ("[02] Desktop Environment")
         print ("[03] Exit the Program")
         clo = raw_input ("HaN7:~# ")
 
