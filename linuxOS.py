@@ -23,7 +23,7 @@ def main():
             print ("    [07] Parrot Sec Os")
             print ("    [08] openSUSE_leap")
             print ("    [00] Back to main menu")
-			print ("\n")
+	    print ("\n")
             customosinstall = raw_input("HaN7:~# ")
 
             if customosinstall == "01" or customosinstall == "1":
