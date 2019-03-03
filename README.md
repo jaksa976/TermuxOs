@@ -1,6 +1,6 @@
 # TermuxOs<br>
 Custom Linux OS for Termux
-<b>USAGE :</b><br />
+<br><b>USAGE :</b><br />
 <ul>
 <li>$ apt update</li>
 <li>$ apt install python2</li>
