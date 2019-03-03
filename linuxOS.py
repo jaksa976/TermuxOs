@@ -56,7 +56,8 @@ def main():
 	    restart_program()		
                     
         elif clo == "03" or clo == "3":
-	    os.system("echo Thank's for using this tool")	
+	    os.system("echo Thank's for using this tool")
+	    timeout(2)
             sys.exit()
 
         else:
