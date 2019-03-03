@@ -8,13 +8,14 @@ from core.oscore import *
 
 def main():
         banner()
-        print ("[01] OS Menu Installation")
-	print ("[02] Desktop Environment")
-        print ("[03] Exit the Program")
+        print ("\033[0;36m[01] OS Menu Installation")
+	print ("\033[0;31m[02] Desktop Environment")
+        print ("\033[0;31m[03] Exit the Program\033[0m")
+	print ("\n")
         clo = raw_input ("HaN7:~# ")
 
         if clo == "1" or clo == "01":
-            print ("\n    [01] Kali Linux")
+            print ("\n    \033[0;36m[01] Kali Linux")
             print ("    [02] Kali Nethunter")
             print ("    [03] Debian 9")
             print ("    [04] Ubuntu")
