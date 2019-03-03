@@ -4,18 +4,18 @@ import sys
 import time
 
 linuxos_banner = ("""
- _     ___ _   _ _   ___  __   ___  ____  
+\033[0;36m _     ___ _   _ _   ___  __   ___  ____  
 | |   |_ _| \ | | | | \ \/ /  / _ \/ ___| 
 | |    | ||  \| | | | |\  /  | | | \___ \ 
 | |___ | || |\  | |_| |/  \  | |_| |___) |
-|_____|___|_| \_|\___//_/\_\  \___/|____/                                           
- Custom Linux Os Installation For Termux
-+=========================================+
+|_____|___|_| \_|\___//_/\_\  \___/|____/\033[0m                                           
+ \033[0;32mCustom Linux Os Installation For Termux
+\033[0;31m+=========================================+
 | Author 	: Farhan Abdurahman       |
 | Website 	: www.fsecurity7.com      |
-| Contact me 	: +6281222756005          |
+\033[0;33m| Contact me 	: +6281222756005          |
 | Version 	: V1.0                    |
-+=========================================+
++=========================================+\033[0m
 
 """)
 backtomenu_banner = ("""
@@ -29,7 +29,7 @@ def restart_program():
 
 def backtomenu_option():
         print (backtomenu_banner)
-        backtomenu = raw_input("CLo > ")
+        backtomenu = raw_input("HaN7:~# ")
 
         if backtomenu == "99":
          restart_program()
