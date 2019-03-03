@@ -12,7 +12,7 @@ def main():
 	print ("\033[0;31m[02] Desktop Environment")
         print ("\033[0;31m[03] Exit the Program\033[0m")
 	print ("\n")
-        clo = raw_input ("HaN7:~# ")
+        clo = raw_input ("\033[0;32mHaN7:~# ")
 
         if clo == "1" or clo == "01":
             print ("\n    \033[0;36m[01] Kali Linux")
@@ -25,7 +25,7 @@ def main():
             print ("    [08] openSUSE_leap")
             print ("    [00] Back to main menu")
 	    print ("\n")
-            customosinstall = raw_input("HaN7:~# ")
+            customosinstall = raw_input("HaN7:~#\033[0m ")
 
             if customosinstall == "01" or customosinstall == "1":
                     Kali_Linux()
@@ -51,11 +51,12 @@ def main():
                     restart_program()
 
 	elif clo == "02" or clo == "2":
-	    print("\nComingSoon Dear.")
+	    os.system("echo \033[0;31mComingSoon Dear")
 	    timeout(2)
 	    restart_program()		
                     
         elif clo == "03" or clo == "3":
+	    os.system("echo \033[0;36mThank's for using this tool)	
             sys.exit()
 
         else:
