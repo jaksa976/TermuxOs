@@ -51,12 +51,12 @@ def main():
                     restart_program()
 
 	elif clo == "02" or clo == "2":
-	    os.system("echo \033[0;31mComingSoon Dear")
+	    os.system("echo ComingSoon Dear")
 	    timeout(2)
 	    restart_program()		
                     
         elif clo == "03" or clo == "3":
-	    os.system("echo \033[0;36mThank's for using this tool")	
+	    os.system("echo Thank's for using this tool")	
             sys.exit()
 
         else:
