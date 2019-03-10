@@ -8,7 +8,7 @@ from core.oscore import *
 
 def main():
         banner()
-        print ("\033[0;36m[01] OS Menu Installation")
+        print ("\033[0;32m[01] OS Menu Installation")
 	print ("\033[0;31m[02] Desktop Environment")
         print ("\033[0;31m[03] Exit the Program\033[0m")
 	print ("\n")
