@@ -65,7 +65,7 @@ def main():
                 DE_Ubuntu()
             elif chose == "02" or chose == "2":
                 DE_Debian()
-            elif chose == "03" or chose == "3"
+            elif chose == "03" or chose == "3":
                 DE_Kali()
             elif chose == "04" or chose == "4":
                 DE_Fedora()
