@@ -52,13 +52,14 @@ def main():
 
 	elif clo == "02" or clo == "2":
             banner()
-	    print ("\n      [01] DE Ubuntu")
+	    print ("\n     [01] DE Ubuntu")
             print("     [02] DE Debian")
             print("     [03] DE Kali Linux")
             print("     [04] DE Fedora")
             print("     [05] DE Parrot Sec")
             print("     [06] DE Arch Linux")
             print("     [00] EXIT")
+	    print("\n")
             chose = raw_input("HaN7:~# ")
 
             if chose == "01" or chose == "1":
