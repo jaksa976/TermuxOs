@@ -8,11 +8,11 @@ from core.oscore import *
 
 def main():
         banner()
-        print ("\033[0;32m[01] OS Menu Installation")
-	print ("\033[0;31m[02] Desktop Environment")
-        print ("\033[0;31m[03] Exit the Program\033[0m")
+        print ("\033[0;31m[01] OS Menu Installation")
+	print ("\033[0;33m[02] Desktop Environment")
+        print ("\033[0;32m[03] Exit the Program\033[0m")
 	print ("\n")
-        clo = raw_input ("\033[0;32mHaN7:~# ")
+        clo = raw_input ("\033[0;31mHaN7:~#\033[0m ")
 
         if clo == "1" or clo == "01":
             print ("\n    \033[0;36m[01] Kali Linux")
@@ -25,7 +25,7 @@ def main():
             print ("    [08] openSUSE_leap")
             print ("    [00] Back to main menu")
 	    print ("\n")
-            customosinstall = raw_input("HaN7:~#\033[0m ")
+            customosinstall = raw_input("\033[0;31mHaN7:~#\033[0m ")
 
             if customosinstall == "01" or customosinstall == "1":
                     Kali_Linux()
@@ -52,15 +52,15 @@ def main():
 
 	elif clo == "02" or clo == "2":
             banner()
-	    print ("\n     [01] DE Ubuntu")
+	    print ("\n     \033[0;32m[01] DE Ubuntu")
             print("     [02] DE Debian")
             print("     [03] DE Kali Linux")
-            print("     [04] DE Fedora")
+            print("     \033[0;33m[04] DE Fedora")
             print("     [05] DE Parrot Sec")
             print("     [06] DE Arch Linux")
-            print("     [00] EXIT")
+            print("     \033[0;31m[00] EXIT\033[0m")
 	    print("\n")
-            chose = raw_input("HaN7:~# ")
+            chose = raw_input("\033[0;31mHaN7:~#\033[0m ")
 
             if chose == "01" or chose == "1":
                 DE_Ubuntu()
