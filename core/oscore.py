@@ -14,7 +14,7 @@ linuxos_banner = ("""
 | Author 	: Farhan Abdurahman       |
 | Blog	 	: www.sideload.id         |
 \033[0;33m| Contact me 	: +6281222756005          |
-| Version 	: V1.0                    |
+| Version 	: V2.0                    |
 +=========================================+\033[0m
 
 """)
